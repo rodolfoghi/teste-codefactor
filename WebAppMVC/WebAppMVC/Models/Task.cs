@@ -31,5 +31,12 @@ namespace WebAppMVC.Models
             var d = c * 2;
             return d;
         }
+
+        public static int TestB()
+        {
+            var a = 10 + 20;
+            var b = a * 2;
+            return b;
+        }
     }
 }
