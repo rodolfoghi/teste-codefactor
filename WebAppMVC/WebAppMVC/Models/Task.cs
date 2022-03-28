@@ -17,5 +17,26 @@ namespace WebAppMVC.Models
         {
             this.namespaceToNewPrefixMapping = namespaceToNewPrefixMapping;
         }
+
+        public static int Test()
+        {
+            var a = 10 + 20;
+            var b = a * 2;
+            return b;
+        }
+
+        public static int TestA()
+        {
+            var c = 10 + 20;
+            var d = c * 2;
+            return d;
+        }
+
+        public static int TestB()
+        {
+            var a = 10 + 20;
+            var b = a * 2;
+            return b;
+        }
     }
 }
